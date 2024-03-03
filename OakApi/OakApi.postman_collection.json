@@ -1,0 +1,338 @@
+{
+	"info": {
+		"_postman_id": "cb3f6aed-1fa2-48d1-81b9-95f30886e908",
+		"name": "OakApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27907837",
+		"_collection_link": "https://solar-firefly-811735.postman.co/workspace/ASP.NET-Core-Web-API~9ce5536b-0785-414d-ab97-5f2f9d772300/collection/27907837-cb3f6aed-1fa2-48d1-81b9-95f30886e908?action=share&source=collection_link&creator=27907837"
+	},
+	"item": [
+		{
+			"name": "GetDepartments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7017/api/Departments",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Departments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDepartmentById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7017/api/Departments/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Departments",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateDepartment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"DepartmentName\" : \"New Department\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7017/api/Departments",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Departments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateDepartment",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"departmentId\": 2,\r\n        \"departmentName\": \"NewUpdateAtDepartment\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7017/api/Departments",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Departments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPersons",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7017/api/Persons",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Persons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPersonById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7017/api/Persons/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Persons",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreatePerson",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Yağmur\",\r\n    \"surname\": \"Soydan\",\r\n    \"age\": 28,\r\n    \"email\": \"yagmur@soydan.net\",\r\n    \"password\": \"Aa123456+\",\r\n    \"address\": \"Denizli\",\r\n    \"positionId\": 3,\r\n    \"position\": null,\r\n    \"salaryId\": 4,\r\n    \"salary\": null,\r\n    \"personDetail\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7017/api/Persons",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Persons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdatePerson",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"personId\": 5,\r\n    \"name\": \"Yağmur\",\r\n    \"surname\": \"Bulut\",\r\n    \"age\": 29,\r\n    \"email\": \"yagmur@bulut.net\",\r\n    \"password\": \"Aa123456+\",\r\n    \"address\": \"Denizli\",\r\n    \"positionId\": 4,\r\n    \"position\": null,\r\n    \"salaryId\": 3,\r\n    \"salary\": null,\r\n    \"personDetail\": null\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7017/api/Persons",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Persons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSalaries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7017/api/Salaries",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Salaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSalaryById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7017/api/Salaries/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Salaries",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateSalary",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\": 550\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7017/api/Salaries",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Salaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateSalary",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"salaryId\": 1,\r\n    \"amount\": 400\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7017/api/Salaries",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Salaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteSalary",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"salaryId\": 1,\r\n    \"amount\": 550\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7017/api/Salaries/5",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7017",
+					"path": [
+						"api",
+						"Salaries",
+						"5"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
