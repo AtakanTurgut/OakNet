@@ -25,6 +25,7 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 ```
 
 <br />
+
 - [ ] If you get an error like this in the console:
 ```
     Only the invariant culture is supported in globalization-invariant mode. 
