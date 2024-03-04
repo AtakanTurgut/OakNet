@@ -25,14 +25,13 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 ```
 
 <br />
-
 - [ ] If you get an error like this in the console:
 ```
     Only the invariant culture is supported in globalization-invariant mode. 
     See https://aka.ms/GlobalizationInvariantMode for more information. 
     (Parameter 'name') en-us is an invalid culture identifier.
 ```
-- [ ] You have to make changes in `.csproj` file of your project, need to add `InvariantGlobalization` attribute to `false` in `PropertyGroup`. [[source]](https://stackoverflow.com/questions/76394279/scaffold-dbcontext-culturenotfoundexception-only-the-invariant-culture-is-sup)
+- [ ] You have to make changes in `.csproj` file of your project, need to add `InvariantGlobalization` attribute to `false` in `PropertyGroup`. [source](https://stackoverflow.com/questions/76394279/scaffold-dbcontext-culturenotfoundexception-only-the-invariant-culture-is-sup)
 ```html
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>

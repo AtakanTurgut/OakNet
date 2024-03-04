@@ -78,5 +78,17 @@ namespace OakApi.Controllers
 			}
 		}
 
+		[HttpPost("uploadfile")]
+		public async Task<IActionResult> UploadFile([FromForm] IFormFile file)
+		{
+			string filename = Guid.NewGuid().ToString() + file.FileName;
+            var filepath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "wwwroot", "images", filename);
+
+            FileStream stream = new FileStream(filepath, FileMode.Create);
+			await file.CopyToAsync(stream);
+
+			return Created("", null);
+		}
+
 	}
 }

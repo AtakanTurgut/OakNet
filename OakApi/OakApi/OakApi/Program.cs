@@ -7,6 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApiDbContext>();
 
 builder.Services.AddControllers();
+
+builder.Services.AddCors(x => x.AddPolicy("OakPolicy", policy =>		//**//
+	policy.WithMethods().WithOrigins("https://oakacademy.uk").AllowAnyHeader()
+));
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -23,6 +28,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseCors("OakPolicy");	//**//
 
 app.MapControllers();
 

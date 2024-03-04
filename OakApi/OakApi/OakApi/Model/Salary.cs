@@ -11,6 +11,7 @@ namespace OakApi.Model
 
         [Key]
         public int SalaryId { get; set; }
+        [Required]
         public int Amount { get; set; }
 
         public virtual ICollection<Person> Persons { get; set; }

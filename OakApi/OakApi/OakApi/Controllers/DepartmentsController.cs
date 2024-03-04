@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OakApi.DataAccess;
 using OakApi.Model;
 
 namespace OakApi.Controllers
 {
-	[Route("api/[controller]")]
+	[EnableCors]    //**//
+    [Route("api/[controller]")]
 	[ApiController]
 	public class DepartmentsController : ControllerBase
 	{
