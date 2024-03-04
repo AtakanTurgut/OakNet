@@ -40,4 +40,4 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
     <ImplicitUsings>enable</ImplicitUsings>
     <InvariantGlobalization>false</InvariantGlobalization>  // true --> false
   </PropertyGroup>
-```
+``` 
