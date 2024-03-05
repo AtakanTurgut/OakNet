@@ -14,7 +14,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
-// google
+// google ***
 builder.Services.AddAuthentication().AddGoogle(x =>
 {
     x.ClientId = "693727810897-h3sn1eusvdatjf2k32khp921idkc8cj4.apps.googleusercontent.com";
