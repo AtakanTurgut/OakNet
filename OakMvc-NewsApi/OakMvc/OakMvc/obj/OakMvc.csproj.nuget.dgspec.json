@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Excalibur\\Desktop\\OakMvc-NewsApi\\OakMvc\\OakMvc\\OakMvc.csproj": {}
+    "C:\\Users\\Excalibur\\Desktop\\OakNet\\OakMvc-NewsApi\\OakMvc\\OakMvc\\OakMvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Excalibur\\Desktop\\OakMvc-NewsApi\\OakMvc\\OakMvc\\OakMvc.csproj": {
+    "C:\\Users\\Excalibur\\Desktop\\OakNet\\OakMvc-NewsApi\\OakMvc\\OakMvc\\OakMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Excalibur\\Desktop\\OakMvc-NewsApi\\OakMvc\\OakMvc\\OakMvc.csproj",
+        "projectUniqueName": "C:\\Users\\Excalibur\\Desktop\\OakNet\\OakMvc-NewsApi\\OakMvc\\OakMvc\\OakMvc.csproj",
         "projectName": "OakMvc",
-        "projectPath": "C:\\Users\\Excalibur\\Desktop\\OakMvc-NewsApi\\OakMvc\\OakMvc\\OakMvc.csproj",
+        "projectPath": "C:\\Users\\Excalibur\\Desktop\\OakNet\\OakMvc-NewsApi\\OakMvc\\OakMvc\\OakMvc.csproj",
         "packagesPath": "C:\\Users\\Excalibur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Excalibur\\Desktop\\OakMvc-NewsApi\\OakMvc\\OakMvc\\obj\\",
+        "outputPath": "C:\\Users\\Excalibur\\Desktop\\OakNet\\OakMvc-NewsApi\\OakMvc\\OakMvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -63,6 +67,14 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
