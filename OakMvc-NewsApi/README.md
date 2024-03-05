@@ -15,3 +15,6 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 <br />
 
 ![](pictures/json2cs.PNG)
+
+# GetNews Page  (https://localhost:7021/Home/GetNews)
+![](pictures/getnewspage.PNG)

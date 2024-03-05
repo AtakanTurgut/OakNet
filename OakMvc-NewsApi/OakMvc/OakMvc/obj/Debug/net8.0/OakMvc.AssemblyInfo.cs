@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OakMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ce3c04f0bcc38b50ecbe4f02662f497c71d94b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("OakMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OakMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
