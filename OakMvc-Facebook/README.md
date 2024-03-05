@@ -7,3 +7,5 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 ```
     PM> NuGet\Install-Package Microsoft.AspNetCore.Authentication.Facebook -Version 8.0.2
 ```
+
+[https://developers.facebook.com/apps/](https://developers.facebook.com/apps/)
