@@ -9,6 +9,7 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 ```
 
 [https://newsapi.org/](https://newsapi.org/)
+
 [https://json2csharp.com/](https://json2csharp.com/)
 
 <br />
