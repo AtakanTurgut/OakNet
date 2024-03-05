@@ -14,7 +14,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
-// facebook
+// facebook ***
 builder.Services.AddAuthentication().AddFacebook(x =>
 {
     x.ClientId = "302247289235115";
