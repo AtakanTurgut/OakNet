@@ -1,0 +1,22 @@
+﻿@model Department
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update Department</h1>
+<form method="post" asp-action="Update">
+    <div class="form-row">
+        <div class="col-md-4 mb-3">
+            <input asp-for="DepartmentId" type="hidden"/>
+            <label>Department Name</label>
+            <input asp-for="DepartmentName" class="form-control" />
+            @Html.ValidationMessageFor(x => x.DepartmentName)
+        </div>
+        <button type="submit" class="btn btn-success">Update</button>
+        <a class="btn btn-primary" asp-action="Index">List</a>
+    </div>
+    <div asp-validation-summary="ModelOnly"></div>
+</form>
+
+
+
