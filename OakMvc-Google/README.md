@@ -7,3 +7,5 @@ Packages can be installed from the "[NuGet Gallery](https://www.nuget.org/packag
 ```
     PM> NuGet\Install-Package Microsoft.AspNetCore.Authentication.Google -Version 8.0.2
 ```
+
+[https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials)
