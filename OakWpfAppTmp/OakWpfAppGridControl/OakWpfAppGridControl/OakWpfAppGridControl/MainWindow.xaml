@@ -1,0 +1,30 @@
+﻿<Window x:Class="OakWpfAppGridControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OakWpfAppGridControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Button Content="Button" VerticalAlignment="Center" Width="Auto"/>
+        <Button Content="Button" Grid.ColumnSpan="2" VerticalAlignment="Bottom" Width="Auto"/>
+        <Button Content="Button" Grid.Column="1" VerticalAlignment="Center" Width="Auto"/>
+        <Button Content="Button" Grid.Row="1" VerticalAlignment="Center" Width="Auto"/>
+        <Button Content="Button Button Button" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Width="Auto"/>
+        <Button Content="Button" Grid.Column="2" VerticalAlignment="Center" Width="Auto"/>
+        <Button Content="Button" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Top" Width="Auto"/>
+        <Button Content="Button" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" Width="Auto"/>
+        <Button Content="Button" Grid.Row="2" Grid.ColumnSpan="3" VerticalAlignment="Center" Width="Auto"/>
+    </Grid>
+</Window>
