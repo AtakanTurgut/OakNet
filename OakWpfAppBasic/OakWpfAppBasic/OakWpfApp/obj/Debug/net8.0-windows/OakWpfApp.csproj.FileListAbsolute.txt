@@ -1,0 +1,41 @@
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\bin\Debug\net8.0-windows\OakWpfApp.exe
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\bin\Debug\net8.0-windows\OakWpfApp.deps.json
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\bin\Debug\net8.0-windows\OakWpfApp.runtimeconfig.json
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\bin\Debug\net8.0-windows\OakWpfApp.dll
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\bin\Debug\net8.0-windows\OakWpfApp.pdb
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp_MarkupCompile.cache
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp_MarkupCompile.lref
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.g.resources
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.AssemblyInfoInputs.cache
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.AssemblyInfo.cs
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.csproj.CoreCompileInputs.cache
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.dll
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\refint\OakWpfApp.dll
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.pdb
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.genruntimeconfig.cache
+C:\Users\Excalibur\Desktop\OakWpfApp\OakWpfApp\OakWpfApp\obj\Debug\net8.0-windows\ref\OakWpfApp.dll
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\bin\Debug\net8.0-windows\OakWpfApp.exe
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\bin\Debug\net8.0-windows\OakWpfApp.deps.json
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\bin\Debug\net8.0-windows\OakWpfApp.runtimeconfig.json
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\bin\Debug\net8.0-windows\OakWpfApp.dll
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\bin\Debug\net8.0-windows\OakWpfApp.pdb
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp_MarkupCompile.cache
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp_MarkupCompile.lref
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.g.resources
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.AssemblyInfoInputs.cache
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.AssemblyInfo.cs
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.csproj.CoreCompileInputs.cache
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.sourcelink.json
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.dll
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\refint\OakWpfApp.dll
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.pdb
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\OakWpfApp.genruntimeconfig.cache
+C:\Users\Excalibur\Desktop\OakNet\OakWpfAppBasic\Yeni klasör\OakWpfApp\obj\Debug\net8.0-windows\ref\OakWpfApp.dll
