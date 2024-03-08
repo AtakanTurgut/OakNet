@@ -1,0 +1,21 @@
+﻿<Window x:Class="OakWpfAppWrapPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OakWpfAppWrapPanel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="250">
+    <WrapPanel Margin="0,0,21,35" Orientation="Vertical">
+        <Button Content="Button" Width="48" Margin="10, 0, 10, 0"/>
+        <Button Content="Button" Width="38" Margin="10, 0, 10, 0"/>
+        <Button Content="Button"/>
+        <Button Content="Button" Width="44"/>
+        <WrapPanel Height="55" Width="190" Orientation="Horizontal">
+            <Button Content="Button"/>
+            <Button Content="Button"/>
+            <Button Content="Button"/>
+        </WrapPanel>
+    </WrapPanel>
+
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="OakWpfAppCanvas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OakWpfAppCanvas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="820" WindowStartupLocation="CenterScreen">
+    <Canvas>
+        <Button Content="" Canvas.Left="10" Canvas.Top="10" Height="210" Width="390" Background="Red" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button Content="" Canvas.Right="10" Canvas.Top="10" RenderTransformOrigin="0.034,-0.635" Height="210" Width="390" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FF00D003"/>
+        <Button Content="" Canvas.Left="10" Canvas.Bottom="10" Height="210" Width="390" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#FF0004FF"/>
+        <Button Content="" Canvas.Right="10" Canvas.Bottom="10" RenderTransformOrigin="2.334,-0.951" HorizontalAlignment="Center" VerticalAlignment="Top" Height="210" Width="390" Background="#FFFFD200"/>
+    </Canvas>
+</Window>
